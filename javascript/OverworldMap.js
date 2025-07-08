@@ -120,8 +120,8 @@ class OverworldMap {
   
   window.OverworldMaps = {
     chunja: {
-      lowerSrc: "/images/map/chunja_demo.png",
-      upperSrc: "/images/map/DemoUpper.png",
+      lowerSrc: "images/map/chunja_demo.png",
+      upperSrc: "images/map/DemoUpper.png",
       gameObjects: {
         me: new Person({ // evelyn
           isPlayerControlled: true,
@@ -131,7 +131,7 @@ class OverworldMap {
         npcA: new Person({ // ibrahim
           x: utils.withGrid(2.7),
           y: utils.withGrid(8.5),
-          src: "/images/characters/ibrahim.gif",
+          src: "images/characters/ibrahim.gif",
           behaviorLoop: [
   
             { type: "stand", direction: "up", time: 1000 },
