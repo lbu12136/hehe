@@ -131,7 +131,7 @@ class OverworldMap {
         npcA: new Person({ // ibrahim
           x: utils.withGrid(2.7),
           y: utils.withGrid(8.5),
-          src: "images/characters/ibrahim.gif",
+          src: "images/characters/ibrahim.png",
           behaviorLoop: [
   
             { type: "stand", direction: "up", time: 1000 },
