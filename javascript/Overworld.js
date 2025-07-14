@@ -167,6 +167,13 @@ class Overworld {
 
       { type: "textMessage", text: "Ibra: hehehehehehe" },
 
+      { who: "npcB", type: "stand", direction: "right" },
+      { who: "npcC", type: "stand", direction: "left" },
+
+      { type: "textMessage", text: "1 Haired Clarence: :O" },
+      { type: "textMessage", text: "Fat Eddie: :D" },
+      { type: "textMessage", text: "'takes soju shot'" },
+
       { type: "textMessage", text: "Note: You can control Evelyn's character using WASD or the arrow keys." },
 
 

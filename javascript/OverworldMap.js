@@ -228,6 +228,49 @@ window.OverworldMaps = {
           { type: "stand", direction: "up", time: 1000 },
 
         ],
+
+        //   talking: [
+        //     {
+        //       events: [
+        //         { type: "textMessage", text: "exmaple text: hello hello!", faceMe: "npcA" },
+        //       ]
+        //     }
+        //   ]
+      }),
+      npcB: new Person({ // clarence
+        x: utils.withGrid(2),
+        y: utils.withGrid(3.5),
+        src: "images/characters/clarence.png",
+        behaviorLoop: [
+
+          // behavior loop 1
+          { type: "stand", direction: "down", time: 2500 },
+          { type: "stand", direction: "right", time: 500 },
+          { type: "stand", direction: "down", time: 2500 },
+          { type: "stand", direction: "left", time: 2000 },
+        ],
+
+        //   talking: [
+        //     {
+        //       events: [
+        //         { type: "textMessage", text: "exmaple text: hello hello!", faceMe: "npcA" },
+        //       ]
+        //     }
+        //   ]
+      }),
+      npcC: new Person({ // eddie
+        x: utils.withGrid(3),
+        y: utils.withGrid(3.5),
+        src: "images/characters/eddie.png",
+        behaviorLoop: [
+
+          // behavior loop 1
+          { type: "stand", direction: "down", time: 100 },
+          { type: "stand", direction: "right", time: 100 },
+          { type: "stand", direction: "down", time: 100 },
+          { type: "stand", direction: "up", time: 100 },
+        ],
+
         //   talking: [
         //     {
         //       events: [
