@@ -7,7 +7,7 @@
     border: 0.5px solid var(--menu-border-color);
     border-radius: 5px;
     color: var(--menu-font-color);
-    transform: translate(52%, -250%);
+    transform: translate(56%, -200%);
     display: flex;
     align-items: center;
 }

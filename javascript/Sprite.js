@@ -58,7 +58,6 @@ class Sprite {
       const SPRITE_W = 32;
       const SPRITE_H = 32;
   
-      // original sprite top-left
       const x =
         this.gameObject.x - 8
         + utils.withGrid(10.5)

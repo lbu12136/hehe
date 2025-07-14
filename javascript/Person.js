@@ -39,7 +39,7 @@ class Person extends GameObject {
       this.direction = behavior.direction;
       
       if (behavior.type === "walk") {
-        //Stop here if space is not free
+        //Stop here if space is not free --> TO DO: FIX THIS!!!!!!!!
         if (state.map.isSpaceTaken(this.x, this.y, this.direction)) {
   
           behavior.retry && setTimeout(() => {
